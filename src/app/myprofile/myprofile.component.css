@@ -1,0 +1,17 @@
+.card{
+    height: 40rem;
+    width: 75rem;
+    margin-left: 3rem;
+    margin-top: 4rem;
+    /* background-color:antiquewhite ; */
+}
+.image{
+    margin-left: 32rem;
+    height: 18rem;
+    width: 14rem;
+    box-shadow: 5px 3px 4px 3px #666362;
+}
+.h1tag{
+    margin-left: 37rem; 
+    margin-top: 1rem;
+}

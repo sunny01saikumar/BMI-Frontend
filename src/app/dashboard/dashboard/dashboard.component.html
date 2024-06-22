@@ -1,0 +1,39 @@
+
+<!-- <nav class="navbar navbar-light bg-muted">
+  <div class="container-fluid">
+    <button type="button" mat-button (click)="drawer.toggle()" class="menu-icon">
+      <mat-icon>menu</mat-icon>
+    </button>
+    <span class="navbar-brand mb-0 h1 heading">BMI CALCULATOR</span>
+  </div>
+</nav>  -->
+<mat-drawer-container class="example-container" autosize>
+    <mat-drawer #drawer class="example-sidenav bg- " mode="side" opened="true">
+      <h1 class="h1tag"><b>BMI CALCULATOR</b></h1>
+      <img class="img" src="https://svm.org.in/wp-content/uploads/2019/02/logo.png" height="65rem" width="150rem">
+      <div class="button">
+      <button mat-raised-button routerLink="/" class="bmi_btn" >
+        BMI
+      </button>
+      <button mat-raised-button routerLink="/about" class="bmi_btn" >
+        About BMI
+      </button>
+      <button mat-raised-button routerLink="/myprofile" class="bmi_btn" >
+        MY PROFILE
+      </button>
+    </div>
+    </mat-drawer>
+    <nav class="navbar navbar-expand-lg navbar-light bg-muted">
+      <div class="container-fluid">
+        <button type="button" mat-button (click)="drawer.toggle()" class="menu-icon">
+          <mat-icon>menu</mat-icon>
+        </button>
+        <span class="navbar-brand mb-0 h1 heading">BMI CALCULATOR</span>
+      </div>
+    </nav>
+    
+  
+    <div class="example-sidenav-content">
+      <router-outlet></router-outlet>
+    </div>  
+  </mat-drawer-container>

@@ -1,0 +1,75 @@
+<div class="heading1">
+  <div class="container-fluid">
+    <div class="row d-flex justify-content-center align-items-center">
+      <div class="col-md-6">
+        <div class="card">
+          <div class="card-header heading">
+            <h1 class="text-center">BMI CALCULATOR</h1>
+          </div>
+          <div class="card-body">
+            <form [formGroup]="bmiCal" (ngSubmit)="postBMI($event)">
+              <div class="row mb-3">
+                <div class="col-md-6">
+                  <mat-form-field class="example-full-width w-100">
+                    <mat-label>Your Name</mat-label>
+                    <input matInput formControlName="empName">
+                  </mat-form-field>
+                </div>
+                <div class="col-md-6">
+                  <mat-form-field class="example-full-width w-100">
+                    <mat-label>Age</mat-label>
+                    <input matInput formControlName="age" type="number">
+                  </mat-form-field>
+                </div>
+              </div>
+
+              <div class="row mb-3">
+                <div class="col-md-6">
+                  <mat-form-field class="example-full-width w-100">
+                    <mat-label>Gender</mat-label>
+                    <input matInput formControlName="gender">
+                  </mat-form-field>
+                </div>
+                <div class="col-md-6">
+                  <mat-form-field class="example-full-width w-100">
+                    <mat-label>Weight</mat-label>
+                    <input matInput formControlName="weight" type="number">
+                  </mat-form-field>
+                </div>
+              </div>
+
+              <div class="row mb-3">
+                <div class="col-md-6">
+                  <mat-form-field class="example-full-width w-100">
+                    <mat-label>Height</mat-label>
+                    <input matInput formControlName="height" type="number">
+                  </mat-form-field>
+                </div>
+                <div class="col-md-6">
+                  <mat-form-field class="example-full-width w-100" >
+                    <mat-label>Mail</mat-label>
+                    <input matInput formControlName="mail" type="email">
+                  </mat-form-field>
+                </div>
+              </div>
+
+              <div class="mb-3">
+                <div class="d-flex justify-content-center">
+                  <button mat-raised-button type="submit" color="primary" class="btn btn-primary btn-block">Check BMI</button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+      <!-- <div class="col-md-6">
+          <canvas id="MyChart" width="400" height="200" style="border: 1px solid #ddd;">
+           <h5>Your BMI Chart will be displayed here.</h5> 
+          </canvas>
+      </div> -->
+    </div>
+  </div>
+</div>
+
+
+

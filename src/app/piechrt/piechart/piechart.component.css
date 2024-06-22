@@ -1,0 +1,22 @@
+.container {
+  display: flex;
+  margin-top: 5rem;
+}
+
+.chart-container {
+  flex: 1; /* Expand to take available space */
+  padding: 20px;
+}
+
+.explanation-container {
+  flex: 1; /* Expand to take available space */
+  padding: 20px;
+  /* background-color: #f7f7f7; */
+  margin-top: 4rem;
+}
+
+.image{
+  height: 12rem;
+  width: 22rem;
+  margin-left: 38rem;
+}

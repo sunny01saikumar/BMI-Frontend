@@ -1,0 +1,27 @@
+.para{
+    margin-left: 32rem;
+    margin-top: 2rem;
+    font-size: 2rem;
+  }
+
+  .btn{
+    margin-top: 5rem;
+    margin-left: 3rem;
+    border:1px solid rgba(0,0,0,0.5);
+    box-shadow: 5px 3px 4px 3px #666362;
+  
+  }
+
+  .bmi{
+    margin-left: 1rem;
+    /* background-color: antiquewhite; */
+  }
+  .card{
+    margin-top: 2rem;
+    width: 76rem;
+    margin-left: 2rem;
+    box-shadow: 5px 3px 4px 3px #666362;
+  }
+  /* .body{
+    background-color: black;
+  } */
